@@ -521,10 +521,16 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #61892f;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 991px) {
+  .mobileInvisible {
+    display: none;
+  }
 }
 
 .figure {
@@ -3207,6 +3213,7 @@ fieldset:disabled a.btn {
 .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
+  font-weight: bold;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -8528,6 +8535,10 @@ button.bg-dark:focus {
 .pt-4,
 .py-4 {
   padding-top: 1.5rem !important;
+}
+
+.centerDiv {
+  text-align: center;
 }
 
 .pr-4,
