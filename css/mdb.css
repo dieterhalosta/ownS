@@ -604,6 +604,9 @@
 .green-text {
   color: #4caf50 !important; }
 
+.darkgreen-text {
+    color: #61892F !important; }
+
 .rgba-green-slight,
 .rgba-green-slight:after {
   background-color: rgba(76, 175, 80, 0.1); }
